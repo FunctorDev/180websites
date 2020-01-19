@@ -1,0 +1,47 @@
+.p-home-page {
+  &__container {
+    padding: 0 50px;
+  }
+}
+
+.p-home-page-header {
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 15px;
+
+  &__item {
+    margin: 0 10px;
+  }
+}
+
+.p-home-page-welcome {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0 50px;
+
+  &__hi {
+    color: #ff9933;
+    font-size: 90px;
+    margin: 0;
+  }
+
+  &__info {
+    font-size: 22px;
+  }
+}
+
+.p-home-page-today-website {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.p-home-page-list {
+  margin: 30px 0;
+
+  &__item {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+}
